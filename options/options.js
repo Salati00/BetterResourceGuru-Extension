@@ -14,9 +14,9 @@ function save_options() {
   )
 }
 function restore_options() {
-  chrome.storage.sync.set(
+  chrome.storage.sync.get(
     {
-      delayMs: 10,
+      delayMs: 100,
     },
     function (items) {
       document.getElementById('delay').value = items.delayMs
