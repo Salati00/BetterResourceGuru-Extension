@@ -1,4 +1,7 @@
 # BetterResourceGuru-Extension
 Removes inspirational quotes from resource guru.
 
-To install go to the chrome extensions page, enable developer mode and add non packaged extension.
+## Installation
+- Go to the chrome extensions page
+- enable developer mode 
+- load unpacked extension
