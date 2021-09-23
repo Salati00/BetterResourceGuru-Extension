@@ -7,6 +7,6 @@
       if (inspQuote != undefined) {
         inspQuote.remove()
       }
-    }, ((delay == undefined) ? 5 : parseInt(delay.delayMs)))
+    }, ((delay == undefined) ? 10 : parseInt(delay.delayMs)))
   })
 })()
